@@ -100,3 +100,20 @@ body {
     font-size: 16px;
     transition: color 0.2s;
 }
+
+@media (max-width: 700px) {
+    .menu-list,
+    .footer {
+        padding: 0 10px;
+    }
+    .container h1,
+    .container p,
+    .content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
